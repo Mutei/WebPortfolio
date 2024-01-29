@@ -1,0 +1,94 @@
+#introduction>div{
+    /* background-color: red; */
+    margin: 0;
+    padding-left: 300px;
+}
+.gradient-background {
+  background: linear-gradient(300deg, #ff4c68, #00bfff, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.card .card-body h5.card-title {
+  color: #00bfff;
+  text-align: center;
+}
+.card .card-body{
+  
+  text-align: center;
+  
+}
+.text-center>h2{
+  color: #00bfff;
+}
+
+.card .card-body svg {
+  color: #00bfff;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  margin: 25px;
+}
+#skills>div{
+  background-color: white;
+  margin: 0;
+  padding-top: 30px;
+}
+#projects>div{
+  background-color: whitesmoke;
+  margin: 0;
+  padding-top: 30px;
+}
+#skills>div>div{
+  margin-left: 150px;
+}
+#projects>div>div{
+  margin-left: 150px;
+}
+.card>svg{
+  display: grid;
+  place-items: center;
+}
+
+.carousel-inner>img{
+  width: 100px;
+  height: 100px;
+}
+
+#skills>div>h2{
+  
+  margin: 0;
+}
+#projects>div>h2{
+  
+  margin: 0;
+}
+.whatsapp-link{
+  color: lightgreen;
+}
+.telephone-link{
+  color: white;
+}
+.linkedin-link{
+  color: #0a66c2;
+}
+#footer ul>*{
+
+  margin: 0;
+  margin-left: 20px;
+}
+
+.email-link{
+  color: white;
+}

@@ -1,0 +1,27 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+/* To-Do 1 */
+p{
+  color: red;
+}
+/* To-Do 2 */
+.note{
+  font-size: 20px;
+}
+/* To-Do 3 */
+#id-selector-demo{
+  color: green;
+}
+/* To-Do 4 */
+li[value='4']{
+  color: blue;
+}
+/* To-Do 5 */
+*{
+  text-align: center;
+}
