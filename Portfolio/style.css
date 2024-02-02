@@ -1,7 +1,33 @@
+.containerr {
+  margin: 0px 5rem;
+  width: auto;
+}
+section {
+  padding: 3rem 0;
+}
+.roww {
+  display: flex;
+}
+.roww>div {
+  flex: 1;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+}
+/* .card-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto, 1fr);
+} */
+
 #introduction>div{
     /* background-color: red; */
-    margin: 0;
-    padding-left: 300px;
+    /* padding-left: 300px; */
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
 }
 .gradient-background {
   background: linear-gradient(300deg, #ff4c68, #00bfff, #ef8172);
@@ -20,6 +46,9 @@
     background-position: 0% 50%;
   }
 }
+.row {
+  margin: 0;
+}
 .card .card-body h5.card-title {
   color: #00bfff;
   text-align: center;
@@ -29,7 +58,7 @@
   text-align: center;
   
 }
-.text-center>h2{
+.section-title>h2{
   color: #00bfff;
 }
 
@@ -40,22 +69,15 @@
   height: 70px;
   margin: 25px;
 }
-#skills>div{
+#skills{
   background-color: white;
-  margin: 0;
-  padding-top: 30px;
+  /* padding: 1rem 0; */
 }
-#projects>div{
+#projects{
   background-color: whitesmoke;
-  margin: 0;
-  padding-top: 30px;
+  /* padding: 1rem 0; */
 }
-#skills>div>div{
-  margin-left: 150px;
-}
-#projects>div>div{
-  margin-left: 150px;
-}
+
 .card>svg{
   display: grid;
   place-items: center;
@@ -67,7 +89,6 @@
 }
 
 #skills>div>h2{
-  
   margin: 0;
 }
 #projects>div>h2{
@@ -91,4 +112,23 @@
 
 .email-link{
   color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  #introduction>div {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .roww {
+    display: grid;
+  }
+  #introduction>div {
+    display: grid;
+    justify-content: center;
+  }
+  .intro-img {
+    margin: auto;
+  }
 }
